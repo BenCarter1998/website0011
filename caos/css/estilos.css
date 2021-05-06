@@ -1,0 +1,78 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+h1 {
+    float: left;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+
+
+#bienvenida {
+    font-family: cursive;
+    margin-top: 45px;
+    padding: 15px;
+}
+#bienvenida h2{
+    text-align: center;
+}
+
+body{
+
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background:rgba(36, 36, 34, 0.007);
+}
+#carouselExampleIndicators{
+    width: 50%;
+    margin: auto;
+    margin-top: 120px;
+}
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+.container-fluid{
+    padding: 1px;
+    
+
+}
+.card-img-top{
+    width: 10%;
+    height: auto;
+    background-color: black;
+
+}
+.d-flex{
+    background: rgba(63, 84, 207, 0.445);
+}
+.btn-outline-success{
+    background: rgba(63, 84, 207, 0.445);
+
+}
+
